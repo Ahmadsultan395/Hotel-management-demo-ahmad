@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Page from "../page/page";
+import Page from "../Page/Page.jsx";
 import ErrorPage from './components/ErrorPage'
 
 
