@@ -5,7 +5,7 @@ import {
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Page from "../../components/page";
+import Page from "../../components/page.js";
 import { getAllCourse } from "../../store/actions/courseActions";
 import Hero from "./hero/Hero";
 import Hero_card from "./hero-card/Hero_card";
