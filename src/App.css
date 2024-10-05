@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto, sans-serif",
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+
+}
+
+
+/* -------------------------OTP File---------------------- */
+.otpContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding: 1rem 10%;
+height: auto;
+
+
+}
+.otpInput{
+padding: 1rem;
+text-align: center;
+width: 4rem;
+margin-left: 1rem;
+font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+ .otpInput {
+    width: 2rem;
+width: 2rem;
+padding: 0.5rem;
+font-size: 1rem;
+
+  }
+}
+
+
+
+/* Student_testimonials.css */
+
+.slick-prev, .slick-next {
+
+  color: black; /* Adjust arrow color */
+  z-index: 1;
+  background-color: #cccccc; /* Optional background */
+  border-radius: 50%; /* Circular arrow buttons */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjust the position of the arrows */
+.slick-prev {
+  background-color: #cccccc; /* Optional hover effect */
+  color: white;
+  left: -50px; /* Adjust this value as needed */
+}
+
+.slick-next {
+  background-color: #cccccc; /* Optional hover effect */
+  color: white;
+  right: -50px; /* Adjust this value as needed */
+}
+
+.slick-prev:hover, .slick-next:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Optional hover effect */
+  color: white; /* Optional hover arrow color */
+}
+

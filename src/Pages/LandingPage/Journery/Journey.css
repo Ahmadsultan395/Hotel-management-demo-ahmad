@@ -1,0 +1,50 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.hero-sectionj{
+    width: 100%;
+    /* background-image: url("/HeroImage.png"); */
+    background-color:white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 7% 15%;
+    height: auto;
+    display: flex;
+    gap: '10rem';
+}
+.hero-section-textj{
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: '4rem';
+}
+.hero-section-textj h1{
+    font-size: 4.2rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-family: "roboto";
+}
+ .hero-section-text-spamj{
+    font-weight: 100;
+    color: white;
+    font-size: 4.2rem;
+
+ }
+/* .hero-section-text button{
+    height: 3rem;
+   width: 9rem;
+    font-size:1rem;
+    background-color: #960256;
+    color: white;
+    font-weight:500;
+    border: none;
+    outline: none;
+    margin-bottom: 6rem;
+} */
